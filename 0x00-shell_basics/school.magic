@@ -1,1 +1,3 @@
-0 string SCHOOL School data file
+school:                 cannot open `school' (No such file or directory)
+echo:                   cannot open `echo' (No such file or directory)
+0 string SCHOOL School: cannot open `0 string SCHOOL School' (No such file or directory)
