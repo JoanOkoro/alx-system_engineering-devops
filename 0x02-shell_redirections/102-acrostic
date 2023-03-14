@@ -1,3 +1,3 @@
 
 #!/bin/bash
-awk '{printf("%s", substr($0, 1, 1))} END {printf("\n")}'
+str="" while read line do str="$str${line:0:1}" done echo "$str"
