@@ -1,2 +1,2 @@
 #!/bin/bash
-shopt -s globstar; num_dirs=$(find . -type d -not -path '*/\.*' -not -path '.' -not -path '..' | wc -l); echo $num_dirs
+echo "$num_dirs" | wc
